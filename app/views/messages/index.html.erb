@@ -1,3 +1,5 @@
-<h1>
-  this
-</h1>
+<% @messages.each do |message| %>
+  <h2><%= message.title %></h2>
+<% end %>
+
+<%= link_to 'New Message', new_message_path %>
