@@ -9,6 +9,10 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.3'
 gem 'mysql2', '>= 0.4.4'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
+#simple form
+gem 'simple_form', '~> 5.0', '>= 5.0.3'
+#bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
